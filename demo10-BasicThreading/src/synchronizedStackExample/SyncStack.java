@@ -63,7 +63,8 @@ public class SyncStack
 	 */
 	public synchronized void push( char c )
 	{
-		Character charObject = new Character( c );
+
+		Character charObject = 'c';
 		buffer.add( charObject );
 		this.notify();
 	}
